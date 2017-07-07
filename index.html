@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar">
         <span class="open-slide">
-            <a href="#">
+            <a href="#" onclick="openSlideMenu()">
                 <svg width="30" height="30">
                     <path d="M0,5,30,5" stroke="#fff" stroke-width="5"></path>
                     <path d="M0,14,30,14" stroke="#fff" stroke-width="5"></path>
@@ -28,7 +28,7 @@
         </ul>
     </nav>
     <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close">&times;</a>
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
@@ -37,6 +37,7 @@
     <div id="main">
         <h1>Responsive Side Menu</h1>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
